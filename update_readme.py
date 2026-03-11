@@ -1,11 +1,15 @@
 from datetime import datetime
 
 content = f"""
-#Automated README
+# Hi, I'm Jhansi 👋
 
-Last updated: {datetime.now()}
+🚀 4th Year BTech Student  
+💻 Learning Python, React, Cloud & DevOps  
 
-Keep learning something new everyday
+### ⏳ Last Updated
+{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+
+Keep building and learning every day ✨
 """
 
 with open("README.md", "w") as f:

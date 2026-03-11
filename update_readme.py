@@ -2,7 +2,7 @@ from datetime import datetime
 
 content = f"""
 ### ⏳ Last Updated
-{datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 
 Keep building and learning every day ✨
 """

@@ -9,6 +9,21 @@
 </div>
 
 ---
+
+## ⚡Who am I?
+
+```
+jhansi = {
+    "role": "Full Stack Intern",
+    "stack": ["Python", "React", "JavaScript"],
+    "learning": ["AWS ☁️", "System Design"],
+    "philosophy": "while(alive) { learn(); build(); }"
+}
+```
+
+---
+
+---
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 
 <br/>

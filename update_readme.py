@@ -1,11 +1,11 @@
 from datetime import datetime
 
 content = f"""
-#Automated README
+# Automated README
 
 Last updated: {datetime.now()}
 
-Keep learning something new everyday
+Keep learning something new every day 🚀
 """
 
 with open("README.md", "w") as f:

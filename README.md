@@ -45,10 +45,10 @@ jhansi = {
 
 ---
 
-### ⚡Last Updated
+### ⏳ Last Updated
 
 <!--LAST_UPDATED_START-->
-///
+Initial timestamp
 <!--LAST_UPDATED_END-->
 
 

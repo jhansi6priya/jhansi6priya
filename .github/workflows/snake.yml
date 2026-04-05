@@ -13,7 +13,7 @@ env:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs: ubuntu-latest
 
     steps:
       - name: Generate snake

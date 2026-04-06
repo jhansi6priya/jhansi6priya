@@ -1,4 +1,5 @@
 from datetime import datetime
+import re
 
 with open("README.md", "r") as f:
     readme = f.read()
@@ -11,11 +12,8 @@ new_Sec = f"""
 <!--LAST_UPDATED_END-->
 """
 
-import re
-
 updated_readme = re.sub(
-    r"### ⏳ Last Updated.*?Keep building and learning every day ",
-    r"<!--LAST_UPDATED_START-->*?<!--LAST_UPDATED_END-->",
+    r"<!--LAST_UPDATED_START-->.*?<!--LAST_UPDATED_END-->",
     new_Sec,
     readme,
     flags=re.DOTALL
